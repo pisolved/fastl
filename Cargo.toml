@@ -1,0 +1,14 @@
+[package]
+name = "stl"
+version = "0.1.0"
+authors = ["Nathan <nathan.leniz@gmail.com>"]
+edition = "2018"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "fastl"
+
+[dependencies]
